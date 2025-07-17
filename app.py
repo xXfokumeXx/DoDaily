@@ -13,6 +13,6 @@ def create_app():
 
     @app.route("/add", methods=["GET", "POST"])
     def add_habit():
-        return render_template("add_habbit.html", title="Do Daily - Add Habit")
+        return render_template("add_task.html", title="Do Daily - Add Habit")
     
     return app
